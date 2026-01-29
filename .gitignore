@@ -1,0 +1,25 @@
+# Environment variables (contains secrets)
+.env
+
+# Post history (personal data)
+post-history.json
+
+# Screenshots (temporary files)
+screenshots/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+dist/
+build/
+
+# OS files
+.DS_Store
