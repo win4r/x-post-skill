@@ -1,5 +1,7 @@
 # Claude X Post Skill
 
+### 🔥我的YouTube频道：https://www.youtube.com/@AIsuperdomain
+
 [English](#english) | [中文](#中文)
 
 ---
