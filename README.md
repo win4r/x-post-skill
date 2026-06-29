@@ -33,6 +33,29 @@ A Claude Code skill for posting to X (Twitter) directly from your Claude Code se
 "Continue my launch-day thread with: The response has been incredible..."
 ```
 
+### Optional Research Context With TweetClaw
+
+If you also use OpenClaw, TweetClaw can collect public X/Twitter context before
+you draft or post:
+
+```bash
+openclaw plugins install npm:@xquik/tweetclaw
+```
+
+Use TweetClaw output as a reviewed source packet, not as final post copy. Keep
+each packet small and include:
+
+- the public post URL
+- the author handle
+- the captured text or a short quote
+- the capture time
+- visible metrics or reply context when relevant
+- caveats such as "screenshot only" or "metrics may have changed"
+
+Then ask Claude Code to draft from the packet and use this skill for the final
+tweet, thread, reply, media upload, or screenshot post only after you approve
+the exact text.
+
 ---
 
 ## Step 1: Apply for X (Twitter) API Keys
