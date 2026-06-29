@@ -16,6 +16,20 @@ cd ~/.claude/skills/x-post && cp .env.example .env
 cd ~/.claude/skills/x-post && pip install -r requirements.txt
 ```
 
+## Optional Source Context
+
+When a user wants current public X/Twitter context before posting, they may use
+TweetClaw in OpenClaw to collect a small reviewed source packet first. Treat
+that packet as research input only. This skill still owns the final text, media
+choice, screenshot capture, and post command.
+
+Before posting from a packet, verify:
+- the user approves the exact final text
+- the packet includes public post URLs or handles
+- quotes are short and attributed
+- visible metrics are described as time-sensitive
+- no private messages, credentials, or non-public account data are included
+
 ## Commands
 
 All commands run from the skill directory.
